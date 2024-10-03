@@ -3,7 +3,6 @@
   serial port on an Arduino board (and which port).
 */
 #ifdef ESP_PLATFORM
-#ifndef ARDUINO
 #include "DYPlayerESP32.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -71,5 +70,4 @@ namespace DY
     return false;
   }
 }
-#endif
 #endif
